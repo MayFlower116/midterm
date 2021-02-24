@@ -1,0 +1,27 @@
+
+
+
+/* Nav */
+nav a:link{
+    color:rgb(53, 80, 8);
+}
+nav a:visited {
+    color: silver;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+.scroll_section {
+    z-index: 99;
+    position: fixed;
+    width: 106%;
+    margin-left: -3%;
+
+    text-align: center;
+    background-color: #9A8C98;
+    padding-top: -20px;
+}
+
