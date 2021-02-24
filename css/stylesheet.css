@@ -1,5 +1,32 @@
 
 
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    background-color: #F2E9E4;
+}
+
+body {
+    background-color: #C9ADA7;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+h1 {
+    color: #22223B;
+    font-family: 'Indie Flower', cursive;
+}
+
+
 
 /* Nav */
 nav a:link{
@@ -12,16 +39,16 @@ nav a:visited {
 nav li {
     display: inline;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .scroll_section {
     z-index: 99;
     position: fixed;
-    width: 106%;
-    margin-left: -3%;
-
+    width: 100%;
     text-align: center;
     background-color: #9A8C98;
-    padding-top: -20px;
+    padding-top: auto;
+    margin: auto;
 }
 
