@@ -10,15 +10,18 @@
     background: transparent;
 }
 
-html {
-    background-color: #F2E9E4;
-}
+
 
 body {
-    background-color: #C9ADA7;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
     padding: auto;
+    background-color: #F2E9E4;
+}
+
+section, article {
+    background-color: #C9ADA7;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -26,6 +29,30 @@ h1 {
     font-family: 'Indie Flower', cursive;
 }
 
+h2 {
+    text-align: center;
+}
+
+/* Menu */
+
+
+.breakfast {
+    overflow: auto;
+}
+
+.breakfast ul {
+    float: left;
+    color: teal;
+
+}
+
+.breakfast img {
+    float: right;
+}
+
+.lunch img {
+    float: left;
+}
 
 
 /* Nav */
@@ -39,7 +66,6 @@ nav a:visited {
 nav li {
     display: inline;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 .scroll_section {
@@ -50,5 +76,9 @@ nav li {
     background-color: #9A8C98;
     padding-top: auto;
     margin: auto;
+}
+
+.top_space {
+    height: 80px;
 }
 
